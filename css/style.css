@@ -1,0 +1,39 @@
+.menuDiv{
+    position: relative;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.menuDiv .menuItem{
+position: relative;
+width: 300px;
+padding:25px 10px ;
+border-radius: 10px;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+transition-duration: 0.5s;
+cursor: pointer;
+color: white;
+transform: translateX(-70%);
+}
+.menuDiv .menuItem:hover{
+    transform: translateX(-10%);
+}
+.menuDiv .menuItem:nth-child(1){
+   
+    background-color: #04aa6d;
+}
+.menuDiv .menuItem:nth-child(2){
+    
+    background-color: #2196f3;
+}
+.menuDiv .menuItem:nth-child(3){
+   
+    background-color: #f44336;
+}
+.menuDiv .menuItem:nth-child(4){
+   
+    background-color: #555;
+}
